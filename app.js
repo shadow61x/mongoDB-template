@@ -16,7 +16,7 @@ const test = require('./models/test.js')
 //mongoDBurl yazan kısma mongoDB panl linkinizi yazın 
 // ör : const dbURL = 'mongodb+srv://757:75575.juzwe.mongodb.net/7557?retryWrites=true&w=majority'
 
-const dbURL = 'mongodb+srv://codearmy:code2009@cluster0.juzwe.mongodb.net/codearmy?retryWrites=true&w=majority'
+const dbURL = 'mongodb+srv:`mongodb url`
 mongoose.connect(dbURL , {useNewUrlParser : true , useUnifiedTopology: true})
 .then((result) =>{
     app.listen(3000)
